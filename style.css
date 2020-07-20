@@ -84,6 +84,13 @@
     width: 5%;
     margin-left: 10px;
   }
+  .sold{
+    height: 1px;
+    border-bottom: 1px solid rgb(78, 74, 74);
+    width: 3%;
+    margin-left: 10px;
+  }
+
   
   .gold{
     height: 1px;
@@ -91,3 +98,30 @@
     width: 90%;
     margin-left: 50px;
   }
+.container
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.element 
+{
+  height: 300px ;
+  width:200px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+.element:hover
+{
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgb(59, 57, 57);
+  transition: 0.5s;
+}
+.l3jeb:hover
+{
+  transform: translateX(10px);
+  transition: 0.5s;
+}
