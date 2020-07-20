@@ -3,32 +3,7 @@
     text-align: center;
   
     }
-  .k {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    color: black;
-  }
-  
-  .h {
-    display: inline-flex;
-    align-content: space-around;
-    float: right;
-  }
-  .a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px ;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    opacity: 0.5;
-  }
+
   
   .kh {
     background-color: black;
@@ -124,4 +99,27 @@
 {
   transform: translateX(10px);
   transition: 0.5s;
+}
+
+.flex
+{
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+
+}
+.flex1
+{
+  margin: 1.5%;
+}
+.flex1:hover
+{
+  opacity: 0.5;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href='https://css.gg/arrow-right.css' rel='stylesheet'>
     <link href='https://css.gg/arrow-right-o.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <body>
-    <header id="home">
+    <header id="home" >
         <div  class="kh" >
             <div class="kha" >
                 +212 659353240
@@ -24,21 +25,23 @@
             </div>
             <div style="padding: 15px ;justify-content: right;  " class="kha"   >
                 <a href="https://github.com/khalillamharchi20" > <i class="fa fa-github"; style="font-size: 24px; color: white;"></i></a>
+
             </div> 
+            <div style="padding: 15px ;justify-content: right;  " class="kha"   >
+                <a href="https://www.linkedin.com/in/khalil-lamharchi-46000a1b0/" > <i class="fa fa-linkedin-square"; style="font-size: 24px; color: white;"></i></a>
+        
+            </div>
         </div>
-    </header>   
-    <div>
-        <ul class="k" >
-            <li  class="h"><a  class="a" href="#home"><i class="glyphicon glyphicon-home"></i></a>    
-            </li>
-            <li class="h"><a  class="a" href="#hobits">hobits</a>
-            </li>
-            <li  class="h"><a  class="a" href="#skills">skills</a>
-            </li>
-            <li class="h"><a class="a" href="#aboutme">about me</a>
-            </li>
-        </ul>
+    </header> 
+    
+    <div class="flex" id="myHeader">
+        <div class="flex1" ><a href="#aboutme" style="text-decoration: none;color: black;">about me</a></div>
+        <div class="flex1"><a href="#skills" style="text-decoration:none;color: black;">skills</a></div>     
+        <div class="flex1"><a href="#hobits" style="text-decoration:none;color: black;">hobits</a></div>
+        <div class="flex1"><a href="contactme" style="text-decoration:none;color: black;">contact me</a></div>
+        <div class="flex1"><a href="#home"><i class="glyphicon glyphicon-home" style="color: black;"></i></a></a></div>
     </div>
+    
     <div style="background-color: rgb(239, 236, 243); " id="aboutme">
         <br>
         <br>
@@ -190,6 +193,21 @@
 
 
 
-    </div>    
+    </div>  
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+    </script>  
 </body>
             
+
