@@ -1,0 +1,93 @@
+
+.class {
+    text-align: center;
+  
+    }
+  .k {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+  }
+  
+  .h {
+    display: inline-flex;
+    align-content: space-around;
+    float: right;
+  }
+  .a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px ;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    opacity: 0.5;
+  }
+  
+  .kh {
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    margin: 0px;
+  }
+  
+  .kha {
+    display: flex;
+    flex-direction: row;
+    padding: 17px ;
+  
+  }
+  i:hover
+  {
+    opacity: 0.5;
+  }
+  .youness{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  
+  
+  
+  .aymane
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    margin-left: 10px;
+  
+  
+  }
+  .adli
+  {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40%;
+    margin-left: 50px;
+  
+  }
+  
+  
+  .bold{
+    height: 1px;
+    border-bottom: 1px solid rgb(78, 74, 74);
+    width: 5%;
+    margin-left: 10px;
+  }
+  
+  .gold{
+    height: 1px;
+    border-bottom: 1px solid rgb(78, 74, 74);
+    width: 90%;
+    margin-left: 50px;
+  }
