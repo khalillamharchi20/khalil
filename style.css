@@ -87,6 +87,9 @@
   width:200px;
   background-color: white;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
 }
 .element:hover
@@ -122,4 +125,33 @@
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+circle
+{
+  fill: none;
+  stroke: black;
+  stroke-width: 7;
+  stroke-linecap: round;
+  transform: translate(25px,5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+
+}
+.hicham
+{
+  display: flex;
+  justify-content: center;
+
+}
+circle:nth-child(1)
+{
+  stroke-dashoffset: 0;
+  stroke: #f3f3f3;
+
+}
+circle:nth-child(2)
+{
+  stroke-dashoffset: 220;
+  stroke: #03a9f4;
 }
