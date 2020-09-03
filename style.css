@@ -155,3 +155,9 @@ circle:nth-child(2)
   stroke-dashoffset: 220;
   stroke: #03a9f4;
 }
+.nono
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
